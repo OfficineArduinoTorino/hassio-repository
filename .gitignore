@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 djangolabadmin/static
+=======
+labadmin/djangolabadmin/static
+>>>>>>> d848041... First
 __pycache__
