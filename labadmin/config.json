@@ -1,8 +1,8 @@
 {
   "name": "LabAdmin 2",
-  "version": "latest",
-  "slug": "labadmin",
-  "description": "LabAdmin",
+  "version": "0.2",
+  "slug": "labadmin2",
+  "description": "LabAdmin 2",
   "startup": "application",
   "boot": "auto",
   "image": "matjack1/labadmin",
