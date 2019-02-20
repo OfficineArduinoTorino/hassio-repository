@@ -1,6 +1,6 @@
 {
   "name": "LabAdmin 2",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "slug": "labadmin2",
   "description": "LabAdmin 2",
   "startup": "application",
@@ -19,6 +19,7 @@
     "db_password": "labadmin",
     "db_name": "labadmin",
     "secret_key": "https://www.miniwebtool.com/django-secret-key-generator/",
+    "admin_name": "admin",
     "admin_email": "admin@example.com",
     "admin_pass": "password",
     "ssl": false
@@ -29,6 +30,7 @@
     "db_password": "str",
     "db_name": "str",
     "secret_key": "str",
+    "admin_name": "str",
     "admin_email": "str",
     "admin_pass": "str",
     "ssl": "bool"

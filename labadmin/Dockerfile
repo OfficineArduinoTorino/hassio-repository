@@ -1,5 +1,7 @@
 FROM python:3
 ENV PYTHONUNBUFFERED 1
+RUN apt-get update
+RUN apt-get install jq -y
 RUN mkdir /www
 WORKDIR /www
 COPY requirements.txt /www/
