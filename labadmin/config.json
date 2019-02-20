@@ -1,6 +1,6 @@
 {
   "name": "LabAdmin 2",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "slug": "labadmin2",
   "description": "LabAdmin 2",
   "startup": "application",
@@ -14,10 +14,13 @@
     "ssl"
   ],
   "options": {
-    "db_host": "db",
+    "db_host": "core-mariadb",
     "db_username": "labadmin",
     "db_password": "labadmin",
     "db_name": "labadmin",
+    "secret_key": "https://www.miniwebtool.com/django-secret-key-generator/",
+    "admin_email": "admin@example.com",
+    "admin_pass": "password",
     "ssl": false
   },
   "schema": {
@@ -25,6 +28,9 @@
     "db_username": "str",
     "db_password": "str",
     "db_name": "str",
+    "secret_key": "str",
+    "admin_email": "str",
+    "admin_pass": "str",
     "ssl": "bool"
   },
   "ports": {

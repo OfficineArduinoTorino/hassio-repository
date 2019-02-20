@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'p_c84grt@lgox-xrht-p4qz0y9fs+1uta_=h!mknl@7sck2(c3'
+SECRET_KEY = '***' # SECRET_KEY
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -85,10 +85,10 @@ WSGI_APPLICATION = 'djangolabadmin.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'labadmin',
-        'USER': 'labadmin',
-        'PASSWORD': 'labadmin',
-        'HOST': 'core-mariadb',
+        'NAME': 'labadmin', # DB_NAME
+        'USER': 'labadmin', # DB_USERNAME
+        'PASSWORD': 'labadmin', # DB_PASSWORD
+        'HOST': 'core-mariadb', # DB_HOST
     }
 }
 
