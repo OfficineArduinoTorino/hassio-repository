@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'oauth2_provider',
     'corsheaders',
     'versatileimagefield',
-    'labadmin',
+    'djangolabadmin',
 ]
 
 MIDDLEWARE = [
