@@ -1,12 +1,18 @@
 {
   "name": "LabAdmin 2",
-  "version": "0.2",
+  "version": "0.2.1",
   "slug": "labadmin2",
   "description": "LabAdmin 2",
   "startup": "application",
   "boot": "auto",
   "image": "matjack1/labadmin",
-  "webui": "http://[HOST]:[PORT:8000]/labadmin/admin",
+  "webui": "[PROTO:ssl]://[HOST]:[PORT:8000]/labadmin/admin",
+  "arch": [
+    "armhf"
+  ],
+  "map": [
+    "ssl"
+  ],
   "options": {
     "db_host": "db",
     "db_username": "labadmin",
