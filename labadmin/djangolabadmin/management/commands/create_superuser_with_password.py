@@ -14,7 +14,9 @@ class Command(createsuperuser.Command):
         username = options.get('username')
         database = options.get('database')
 
-        super(Command, self).handle(*args, **options)
+        user = self.UserModel._default_manager.db_manager(database).get(username=username)
+        if not user:
+            super(Command, self).handle(*args, **options)
 
         if password:
             user = self.UserModel._default_manager.db_manager(database).get(username=username)
