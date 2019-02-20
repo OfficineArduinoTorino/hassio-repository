@@ -1,6 +1,6 @@
 {
   "name": "LabAdmin 2",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "slug": "labadmin2",
   "description": "LabAdmin 2",
   "startup": "application",
@@ -18,7 +18,7 @@
     "db_username": "labadmin",
     "db_password": "labadmin",
     "db_name": "labadmin",
-    "ssl": true
+    "ssl": false
   },
   "schema": {
     "db_host": "str",
