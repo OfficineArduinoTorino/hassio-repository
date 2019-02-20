@@ -87,8 +87,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'labadmin',
         'USER': 'labadmin',
-        'PASSWORD': 'apasswordforlabadmin',
-        'HOST': 'db',
+        'PASSWORD': 'labadmin',
+        'HOST': 'core-mariadb',
     }
 }
 
