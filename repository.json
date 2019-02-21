@@ -1,5 +1,5 @@
 {
-    "name": "Hass.IO example add-on repository",
-    "url": "https://home-assistant.io/",
-    "maintainer": "HomeAssistant <info@home-assistant.io>"
+    "name": "Hass.IO repository for labadmin",
+    "url": "https://officine.cc/",
+    "maintainer": "Officine Innesto <d.gomba@officine.cc>"
   }

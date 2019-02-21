@@ -1,8 +1,9 @@
 {
-  "name": "LabAdmin 2",
-  "version": "0.2.13",
-  "slug": "labadmin2",
-  "description": "LabAdmin 2",
+  "name": "labadmin",
+  "version": "0.1.0",
+  "slug": "labadmin",
+  "description": "A django app to manage your Fablab",
+  "url": "https://officinearduinotorino.github.io/LabAdmin/",
   "startup": "application",
   "boot": "auto",
   "image": "matjack1/labadmin",
