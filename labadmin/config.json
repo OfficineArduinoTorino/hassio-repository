@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "slug": "labadmin",
   "description": "A django app to manage your Fablab",
-  "url": "https://officinearduinotorino.github.io/LabAdmin/",
+  "url": "https://www.labadmin.io",
   "startup": "application",
   "boot": "auto",
-  "image": "matjack1/labadmin",
+  "image": "officine/labadmin",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:8000]/labadmin/admin",
   "arch": [
     "armhf"
